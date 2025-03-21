@@ -1,10 +1,10 @@
 #######################################################################################################################################################
 # 
-# Name:
+# Name: Ka Yu Lai
 # SID:
-# Exam Date:
+# Exam Date: 21/3/25
 # Module:
-# Github link for this assignment:  
+# Github link for this assignment: https://github.com/UniversityExeterBusinessSchool/mock-test-2-kayu694 
 #
 #######################################################################################################################################################
 # Instruction 1. Read each question carefully and complete the scripts as instructed.
@@ -21,7 +21,13 @@
 # Question 1 - Loops and Lists
 # You are given a list of numbers representing weekly sales in units.
 weekly_sales = [120, 85, 100, 90, 110, 95, 130]
-
+average = sum(weekly_sales) / len(weekly_sales)
+for i in weekly_sales:
+    if i > average:
+        print('Above average')
+    else:
+        print('Below average')
+    print('Average sales;', average)
 # Write a for loop that iterates through the list and prints whether each week's sales were above or below the average sales for the period.
 # Calculate and print the average sales.
 
